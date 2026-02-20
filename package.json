@@ -1,0 +1,9 @@
+{
+  "name": "hyf-tracking-sheet",
+  "version": "1.0.0",
+  "description": "Generate a printable trainee tracking sheet for HackYourFuture",
+  "type": "module",
+  "scripts": {
+    "start": "node generate-tracking-sheet.js"
+  }
+}

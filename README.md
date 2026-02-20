@@ -35,8 +35,8 @@ Name|Image URL
 Example:
 
 ```
-Atiqa Naseer|https://ca.slack-edge.com/T0EJTUQ87-U0A794RJWK0-b9f000c4d4c7-512
-Mo|https://ca.slack-edge.com/T0EJTUQ87-U04V0H49BHP-532773ea0ef1-512
+Jane Doe|https://i.pravatar.cc/512?img=1
+John Smith|https://i.pravatar.cc/512?img=3
 ```
 
 Blank lines are ignored. If an image URL fails to load, a colored circle with the trainee's initials is shown as a fallback.

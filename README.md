@@ -2,6 +2,14 @@
 
 Generate a printable trainee tracking sheet for HackYourFuture classroom sessions. Each trainee gets a card with their photo, name, and fields to mark by hand: attendance, participation, comprehension, and notes.
 
+## Setup
+
+Copy the example file and add your trainee data:
+
+```bash
+cp images.example.txt images.txt
+```
+
 ## Usage
 
 ```bash
@@ -18,7 +26,7 @@ node generate-tracking-sheet.js path/to/trainees.txt
 
 ## Input format
 
-Edit `images.txt` with one trainee per line, pipe-delimited:
+Edit your local `images.txt` with one trainee per line, pipe-delimited (this file is gitignored for privacy):
 
 ```
 Name|Image URL

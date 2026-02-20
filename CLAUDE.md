@@ -16,7 +16,7 @@ There are no build steps, linters, or tests.
 ## Architecture
 
 Single-file project (`generate-tracking-sheet.js`):
-1. Parses `images.txt` (pipe-delimited `Name|Image URL`, one per line)
+1. Parses `images.txt` (pipe-delimited `Name|Image URL`, one per line; gitignored — copy from `images.example.txt`)
 2. Generates a self-contained HTML string with inline CSS, print-optimized for A4 portrait
 3. Writes `tracking-sheet-print.html` and auto-opens it in the default browser
 
